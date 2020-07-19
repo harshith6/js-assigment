@@ -1,0 +1,122 @@
+Question 2:
+Explain with examples the remaining methods of String and Array
+
+String
+
+The String object lets you work with a series of characters; it wraps Javascript's string primitive data type with a number of helper methods.
+
+As JavaScript automatically converts between string primitives and String objects, you can call any of the helper methods of the String object on a string primitive.
+
+Syntax
+Use the following syntax to create a String object −
+
+var val = new String(string);
+The String parameter is a series of characters that has been properly encoded.
+
+String Properties
+Here is a list of the properties of String object and their description.
+
+Sr.No.	Property & Description
+1	constructor
+Returns a reference to the String function that created the object.
+
+2	length
+Returns the length of the string.
+
+3	prototype
+The prototype property allows you to add properties and methods to an object.
+
+In the following sections, we will have a few examples to demonstrate the usage of String properties.
+
+String Methods
+Here is a list of the methods available in String object along with their description.
+
+Sr.No.	Method & Description
+1	charAt()
+Returns the character at the specified index.
+
+2	charCodeAt()
+Returns a number indicating the Unicode value of the character at the given index.
+
+3	concat()
+Combines the text of two strings and returns a new string.
+
+4	indexOf()
+Returns the index within the calling String object of the first occurrence of the specified value, or -1 if not found.
+
+5	lastIndexOf()
+Returns the index within the calling String object of the last occurrence of the specified value, or -1 if not found.
+
+6	localeCompare()
+Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order.
+
+7	match()
+Used to match a regular expression against a string.
+
+8	replace()
+Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring.
+
+9	search()
+Executes the search for a match between a regular expression and a specified string.
+
+10	slice()
+Extracts a section of a string and returns a new string.
+
+11	split()
+Splits a String object into an array of strings by separating the string into substrings.
+
+12	substr()
+Returns the characters in a string beginning at the specified location through the specified number of characters.
+
+13	substring()
+Returns the characters in a string between two indexes into the string.
+
+14	toLocaleLowerCase()
+The characters within a string are converted to lower case while respecting the current locale.
+
+15	toLocaleUpperCase()
+The characters within a string are converted to upper case while respecting the current locale.
+
+16	toLowerCase()
+Returns the calling string value converted to lower case.
+
+17	toString()
+Returns a string representing the specified object.
+
+18	toUpperCase()
+Returns the calling string value converted to uppercase.
+
+19	valueOf()
+Returns the primitive value of the specified object.
+
+Array
+
+1.Array.push() : Adding Element at the end of an Array. As array in JavaScript are mutable object, we can easily add or remove elements from the Array. And it dynamically changes as we modify the elements from the array.
+Syntax :
+Array.push(item1, item2 …)
+Parameters: Items to be added to an array.
+
+2.Array.unshift() : Adding elements at the front of an Array
+Syntax :
+Array.unshift(item1, item2 …)
+Parameters: Items to be added to the array
+
+3.Array.pop() : Removing elements from the end of an array
+Syntax:
+Array.pop()
+Parameters: It takes no parameter
+
+4.Array.shift() : Removing elements at the beginning of an array
+Syntax :
+Array.shift()
+Parameter : it takes no parameter
+
+5.Array.splice() : Insertion and Removal in between an Array
+Syntax:
+Array.splice (start, deleteCount, item 1, item 2….) 
+Parameters:  
+Start : Location at which to perform operation
+deleteCount: Number of element to be deleted, 
+if no element is to be deleted pass 0.
+Item1, item2 …..- this is an optional parameter . 
+These are the elements to be inserted from location start
