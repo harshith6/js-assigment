@@ -1,0 +1,26 @@
+<html>
+ <head>
+     <h1>
+    Question 1:
+    Write a program which does the following things:
+    1. Takes a positive number from the user.
+    2. Makes an array of numbers till the number given by user
+    3. Use higher order function to filter the odd numbers
+    4. Generate and array of the cubes of the filtered numbers
+</h1>
+ </head>
+<script>
+console.log("Higher order functions");
+let num=prompt("enter the lengrth of array")
+let arr= [];
+for (var i=0;i<num;i++){
+    arr.push(prompt("Enter number"));
+}
+console.log(arr);
+let odd = arr.filter(el=>el%2!=0);
+console.log(odd);
+let oddCube=odd.map(el=>el**3);
+console.log(oddCube);
+</script> 
+</body>
+</html>
