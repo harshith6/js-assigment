@@ -1,0 +1,22 @@
+<html>
+    <head>
+        Question 1:
+        Write a program that will iterate over an array of colors and change the background of the page
+        after 5 seconds.
+    </head>
+    <body>
+        <script>
+var colour = ["gray", "blue", "brown", "green","red","white"];
+var i = 0;
+function change() {
+  document.body.style.backgroundColor = colour[i];
+  i++;
+  if(i > colour.length - 1) 
+  {
+    i = 0;
+  }
+}
+setInterval(change, 5000);
+</script> 
+    </body>
+</html>
